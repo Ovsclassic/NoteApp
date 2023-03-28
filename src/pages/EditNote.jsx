@@ -9,7 +9,7 @@ const EditNote = ({ notes, setNotes }) => {
   const note = notes.find((item) => item.id == id);
   const [title, setTitle] = useState(note.title);
   const [details, setDetails] = useState(note.details);
-  const date = useCreateDate;
+  const date = useCreateDate();
   const navigate = useNavigate();
 
   const handleForm = (e) => {
@@ -50,7 +50,7 @@ const EditNote = ({ notes, setNotes }) => {
           Save
         </button>
         <button className="btn danger" onClick={handleDelete}>
-          RiDeleteBin6Line
+          <RiDeleteBin6Line />
         </button>
       </header>
       <form className="create-note__form" onSubmit={handleForm}>
