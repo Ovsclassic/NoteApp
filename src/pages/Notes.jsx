@@ -1,5 +1,5 @@
-import { BiSearch } from "react-icons/Bi";
-import { MdClose } from "react-icons/Md";
+import { BiSearch } from "react-icons/bi";
+import { MdClose } from "react-icons/md";
 import { Link } from "react-router-dom";
 import { BsPlusLg } from "react-icons/bs";
 
