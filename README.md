@@ -1,4 +1,4 @@
-<h1>Functional Survey Page</h1>
+<h1>Functional Note App</h1>
 
 <p>This is a functional note webpage built with React and local storage. The webpage allows users to create, edit, and delete notes, as well as save them to local storage for future use.</p>
 <h3>Technologies Used</h3>
